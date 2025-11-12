@@ -1,48 +1,24 @@
 <!DOCTYPE HTML>
-
-<html>
+<html lang="en">
 <head>
     <title>Antonio Ercole De Luca</title>
     <meta charset="utf-8"/>
+    <meta name="description" content="Personal website of Antonio Ercole De Luca, Digital Entrepreneur, Senior Software Engineer, and Bayesian Machine Learning Engineer.">
+    <meta name="keywords" content="Antonio Ercole De Luca, Machine Learning, Data Science, Software Engineering, Digital Nomad, SunnyPlans">
     <meta name="msvalidate.01" content="048DFBEA2C038FBD275B221B62E2AC53"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <!--[if lte IE 8]>
-    <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Add a favicon if available -->
     <link rel="stylesheet" href="assets/css/main.css"/>
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
     <!--[if lte IE 9]>
     <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
-    <script type="text/x-mathjax-config">
-            MathJax.Hub.Config({
-                               tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-                               });
-
-
-
-
-
-
-
-
-
-
-
-    </script>
-    <script type="text/javascript"
-            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Removed unused MathJax and Bootstrap scripts as they don't appear to be utilized in the content -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4SNLYN3FY"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-W4SNLYN3FY');
-
-
     </script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -50,7 +26,6 @@
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-WHQX8V2');
-
     </script>
     <!-- End Google Tag Manager -->
 </head>
@@ -74,11 +49,10 @@
                     <div id="menu">
                         <ul>
                             <li><a href="/">Home</a></li>
-                            <li><a href="#whoami">Me</a></li>
+                            <li><a href="#whoami">About Me</a></li> <!-- Improved label for clarity -->
                             <li><a href="#skills">Skills</a></li>
                             <li><a href="#experience">Experience</a></li>
-                            <!--<li><a href="#interests">Interests</a></li>-->
-                            <li><a href="#cta">Contacts</a></li>
+                            <li><a href="#cta">Contact</a></li> <!-- Consistent singular label -->
                         </ul>
                     </div>
                 </li>
@@ -93,35 +67,29 @@
             <p>
                 Digital Entrepreneur<br>
                 Senior Software Engineer<br>
-                Bayesian Machine Learning Engineer<br>
+                Bayesian Machine Learning Engineer
             </p>
         </div>
-        <a href="#whoami" class="more scrolly">Learn More</a>
+        <a href="#whoami" class="more scrolly" aria-label="Learn more about me">Learn More</a> <!-- Added aria-label for accessibility -->
     </section>
 
-    <!-- One -->
+    <!-- About Me -->
     <section id="whoami" class="wrapper style1 special">
         <div class="inner">
             <header class="major">
-                <h2>Me</h2>
+                <h2>About Me</h2> <!-- Consistent heading -->
                 <p>
-                    I have worked as a consultant since 2016 in different roles: Machine Learning Engineer, Data
-                    Architect, Data Scientist, DevOps, and Scrum Master. I have worked on all aspects of data
-                    management: retrieval, storage, cloud infrastructure scaling, statistical analysis and data mining.
-                    Following the entire data life-cycle: web scraping, design of relational databases, cloud
-                    deployment, RESTful API and Jupyter Notebooks. In 2019 I took a couple of sabbatical years to
-                    investigate Statistics & Finance. I also contributed to two scientific papers on Web Scraping and
-                    Data Visualization.
+                    Since 2016, I've consulted in various roles including Machine Learning Engineer, Data Architect, Data Scientist, DevOps, and Scrum Master. My expertise spans the full data lifecycle: from web scraping and relational database design to cloud deployment, RESTful APIs, and Jupyter Notebooks. In 2019, I took a sabbatical to deepen my knowledge in Statistics and Finance, contributing to two scientific papers on Web Scraping and Data Visualization.
                 </p>
                 <ul>
-                    <li>Education:</li>
-                    <li>Bsc: Computer Science, University of Pisa;</li>
-                    <li>Msc: Business Informatics, University of Pisa;</li>
-                    <li>Bsc: Statistics for Data Science, University of Palermo.</li>
+                    <li><strong>Education:</strong></li>
+                    <li>BSc in Computer Science, University of Pisa</li>
+                    <li>MSc in Business Informatics, University of Pisa</li>
+                    <li>BSc in Statistics for Data Science, University of Palermo</li>
                 </ul>
             </header>
             <footer>
-                <a href="#skills" class="button style2 down more scrolly"></a>
+                <a href="#skills" class="button style2 down more scrolly" aria-label="Scroll to skills section"></a>
             </footer>
         </div>
     </section>
@@ -130,150 +98,83 @@
     <section id="skills" class="main style3 primary">
         <div class="content container">
             <h2>
-                <i class="fa fa-cog fa-spin"></i>
-                Skills:
+                <i class="fa fa-cog fa-spin" aria-hidden="true"></i>
+                Skills
             </h2>
-
-            <p>Would you like to know more about my skills and experience?</p>
-            <a href="https://github.com/eracle/cv/raw/master/CV_latest.pdf" class="button style3"><b>My CV</b></a>
+            <p>Explore my skills and professional experience in detail.</p>
+            <a href="https://github.com/eracle/cv/raw/master/CV_latest.pdf" class="button style3" target="_blank" rel="noopener noreferrer"><b>Download My CV</b></a> <!-- Added target and rel for security/best practices -->
         </div>
     </section>
 
     <!-- Experience -->
     <section id="experience" class="wrapper alt style2">
-
         <section class="spotlight">
             <div class="content">
                 <div class="mt-5 mb-5">
                     <h2>
-                        Lifetime experiences:
-                    </h2>
+                        Professional Experiences
+                    </h2> <!-- Improved heading for clarity -->
                 </div>
             </div>
         </section>
         <section class="spotlight">
-            <div class="image"><img src="images/sunnyplans.png" alt="sunnyplans.com"/></div>
+            <div class="image"><img src="images/sunnyplans.png" alt="SunnyPlans.com logo"/></div>
             <div class="content">
-                <h2><a href="https://sunnyplans.com">Sunny Plans</a></h2>
-                <p>SunnyPlans represents a fusion of my dedication to a brighter, more sustainable future and the vast
-                    possibilities of the solar industry. At its core, this startup is committed to aiding businesses in
-                    the solar realm by pinpointing the optimal terrains for their utility-scale solar projects.</p>
-
-                <p>With a clear focus on innovation, our platform serves as a beacon in the renewable energy landscape,
-                    streamlining processes to make the transition to solar energy more efficient and impactful.</p>
-
-                <p>My involvement with SunnyPlans is deeply personal. It's more than just a business endeavor—it's a
-                    manifestation of my passion for and commitment to renewable energy. Through this startup, my
-                    aspiration is to play a pivotal role in championing solar energy, making it a mainstream choice for
-                    many.</p>
+                <h2><a href="https://sunnyplans.com" target="_blank" rel="noopener noreferrer">SunnyPlans</a></h2>
+                <p>SunnyPlans merges my passion for sustainability with solar industry innovation. This startup helps businesses identify optimal terrains for utility-scale solar projects, streamlining the shift to renewable energy.</p>
+                <p>My involvement is personal—it's a commitment to making solar energy mainstream.</p>
+            </div>
+        </section>
+        <section class="spotlight">
+            <div class="image"><img src="images/laspalmas.jpg" alt="Las Palmas cityscape"/></div>
+            <div class="content">
+                <h2><a href="https://t.me/+PIA6Uxxtnig0ODJk" target="_blank" rel="noopener noreferrer">Las Palmas PyData Meetup</a></h2>
+                <p>In 2022, I relocated to Las Palmas and co-founded PyData Las Palmas in November, fostering innovation among digital nomads and expats.</p>
             </div>
         </section>
         <section class="spotlight">
             <div class="image">
-                <img src="https://docs.dask.org/en/latest/_images/dask_horizontal.svg" alt="Dask"
-                     style="background: #4D7493;"/>
+                <img src="https://docs.dask.org/en/latest/_images/dask_horizontal.svg" alt="Dask logo" style="background: #4D7493;"/>
             </div>
             <div class="content">
-                <h2><a href="https://github.com/dask/dask/commits?author=eracle">Open Source</a></h2>
-                <p>
-                    During the first lockdown, I took some time off to contribute to an open-source project: Dask.
-                    It was an intriguing and challenging mental activity, design and implement a new feature in a
-                    library used to perform distributed scientific computing.
-                </p>
-                <p>
-                    The feature I implemented is random sampling on Distributed Sets (Bags). Implementing it allowed
-                    me to face the main challenges the Big data sector has to deal with daily.
-                </p>
-                <p>
-                    If you want to read more on it, I wrote a <a
-                        href="https://eracle.medium.com/distributed-sampling-on-dask-bags-f0e9faad8610">medium post
-                    with its explanation and proof</a>.
-                </p>
+                <h2><a href="https://github.com/dask/dask/commits?author=eracle" target="_blank" rel="noopener noreferrer">Open Source Contributions</a></h2>
+                <p>During the 2020 lockdown, I contributed to Dask, implementing random sampling on Distributed Sets (Bags) to tackle Big Data challenges.</p>
+                <p>Read more in my <a href="https://eracle.medium.com/distributed-sampling-on-dask-bags-f0e9faad8610" target="_blank" rel="noopener noreferrer">Medium post</a>.</p>
             </div>
         </section>
         <section class="spotlight">
-            <div class="image"><img src="images/laspalmas.jpg" alt="Las Palmas"/></div>
-            <div class="content">
-                <h2><a href="https://t.me/+PIA6Uxxtnig0ODJk">Las Palmas Pydata Meetup</a>
-                </h2>
-                <p>
-                    In 2022, I made the decision to move to Las Palmas, drawn by its international allure. The city
-                    boasts a thriving community of digital nomads and expats, all embracing the remote work lifestyle.
-                </p>
-                <p>In November 2022, seeing the immense potential, my friends and I established PyData Las Palmas. Since
-                    then, we've been igniting innovative concepts and fostering a vibrant local community in this Canary
-                    Islands' hotspot.
-                </p>
-            </div>
-        </section>
-        <section class="spotlight">
-            <div class="image"><img src="images/bayesian.jpg" alt="Statistics"/></div>
+            <div class="image"><img src="images/bayesian.jpg" alt="Bayesian statistics illustration"/></div>
             <div class="content">
                 <h2>Statistics for Data Analysis</h2>
-                <p>
-                    After many years of working experience with international clients, plus a Bachelor's and
-                    Master's degree, I decided to get back on Math and enroll at the department of Statistics at the
-                    University of Palermo.
-                </p>
+                <p>After years of international consulting and advanced degrees, I pursued a BSc in Statistics at the University of Palermo to strengthen my mathematical foundation.</p>
             </div>
         </section>
         <section class="spotlight">
-            <div class="image"><img src="images/kiwibot.jpg" alt="Kiwi Bot"/></div>
+            <div class="image"><img src="images/kiwibot.jpg" alt="KiwiBot robot"/></div>
             <div class="content">
-                <h2><a href="https://www.kiwibot.com/">Kiwi Bot</a></h2>
-                <p>I worked with Kiwi Bot for three months at <a href="https://skydeck.berkeley.edu/">Skydeck Berkeley
-                    incubator</a>. I stumbled across <a
-                        href="https://www.linkedin.com/in/sasha-iatsenia">Sasha Iatsenia</a>,
-                    head of product at Kiwi Bot, even before he joined the company.
-                    We met some years before during <a href="http://totalism.org/">a nomadic camp</a> in Lanzarote,
-                    the Canary Islands.
+                <h2><a href="https://www.kiwibot.com/" target="_blank" rel="noopener noreferrer">KiwiBot</a></h2>
+                <p>I collaborated with KiwiBot for three months at Berkeley SkyDeck, reconnecting with a contact from a nomadic camp in Lanzarote.</p>
             </div>
         </section>
         <section class="spotlight">
-            <div class="image"><img src="images/digital_nomad.png" alt="Digital Nomad"/></div>
+            <div class="image"><img src="images/digital_nomad.png" alt="Digital nomad working remotely"/></div>
             <div class="content">
-                <h2>Ex-Digital Nomad</h2>
-                <p>
-                    Everything started working on <a href="https://github.com/eracle/linkedin">an open-source
-                    project</a> I created to learn Python. The project was a Web Scraper using Selenium, which took
-                    attention on github.com. I started using Upwork to get remote jobs. Then, I realized I could
-                    spend my earnings traveling and exploring the world.
-                </p>
-                <p>
-                    I started living as a digital nomad visiting countries such as Belgium, The Netherlands,
-                    Germany, Czech Republic, Canary Islands, Spain, Romania, Switzerland, Ireland, Italy. Then I
-                    moved for three months in Perù and one in Berkeley, United States.
-                </p>
+                <h2>Digital Nomad Journey</h2>
+                <p>Starting with an open-source LinkedIn scraper, I transitioned to remote work via Upwork, traveling through Europe, Peru, and the US.</p>
             </div>
         </section>
         <section class="spotlight">
-            <div class="image"><img src="images/spaziodati.png" alt="Spazio Dati"/></div>
+            <div class="image"><img src="images/spaziodati.png" alt="SpazioDati logo"/></div>
             <div class="content">
-                <h2><a href="https://spaziodati.eu">Spazio Dati</a></h2>
-                <p>
-                    During a year-long internship at SpazioDati, I worked with Ugo Scaiella and prof. Paolo
-                    Ferragina, on an Active Learning technique, which efficiently selects textual snippets to be
-                    annotated by humans. The dataset was created using the platform CrowdFlower (now re-branded as
-                    Figure Eight).
-                </p>
-                <p>
-                    I trained a logistic regression model to replace one of the steps of SpazioDati’s proprietary
-                    Entity Linking system (SaaS): namely Dandelion.
-                </p>
+                <h2><a href="https://spaziodati.eu" target="_blank" rel="noopener noreferrer">SpazioDati</a></h2>
+                <p>In a year-long internship, I developed an Active Learning technique for Entity Linking in Dandelion, using logistic regression and CrowdFlower datasets.</p>
             </div>
         </section>
         <section class="spotlight">
-            <div class="image"><img src="images/pisa.jpg" alt="Palazzo la Sapienza"/></div>
+            <div class="image"><img src="images/pisa.jpg" alt="University of Pisa building"/></div>
             <div class="content">
-                <h2>Università di Pisa</h2>
-                <p>
-                    I graduated from Università di Pisa with a Bachelor's degree in Computer Science, then a
-                    Master's degree in Data Science and Business Informatics. During my studies, I explored
-                    different research fields, including Information Retrieval, Natural Language Processing, and
-                    Machine Learning. During those years I also worked on a European Research Project on Information
-                    Extraction. Thanks to Erasmus LLP Programme I had the chance to study at Universidad Politecnica
-                    de Valencia, Spain.
-                </p>
+                <h2>University of Pisa</h2>
+                <p>I earned a BSc in Computer Science and MSc in Data Science & Business Informatics, researching IR, NLP, and ML. I also studied abroad in Valencia via Erasmus.</p>
             </div>
         </section>
     </section>
@@ -281,20 +182,14 @@
     <!-- Footer -->
     <footer id="footer">
         <ul class="icons">
-            <li><a href="https://www.chess.com/member/eracle1">♟</a></li>
-            <li><a href="https://github.com/eracle" class="icon fa-github"><span class="label">Github></span></a></li>
-            <li><a href="https://stats.stackexchange.com/users/80960/eracle" class="icon fa-stack-overflow"><span
-                    class="label">StackOverflow</span></a></li>
-            <li><a href="https://www.instagram.com/ercole.adeluca/" class="icon fa-instagram"><span
-                    class="label">Instagram</span></a>
-            </li>
-            <li><a href="https://www.linkedin.com/in/eracle" class="icon fa-linkedin"><span
-                    class="label">LinkedIn</span></a></li>
-            <li><a href="https://medium.com/@eracle" class="icon fa-medium"><span class="label">Medium</span></a></li>
-            <li><a href="mailto:eracle@posteo.eu" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-            <li><a href="https://twitter.com/pieracle" class="icon fab fa-twitter"><span
-                    class="label">Twitter</span></a></li>
-
+            <li><a href="https://www.chess.com/member/eracle1" aria-label="Chess.com profile">♟</a></li>
+            <li><a href="https://github.com/eracle" class="icon fa-github" aria-label="GitHub"><span class="label">GitHub</span></a></li>
+            <li><a href="https://stats.stackexchange.com/users/80960/eracle" class="icon fa-stack-overflow" aria-label="Stack Exchange"><span class="label">Stack Exchange</span></a></li>
+            <li><a href="https://www.instagram.com/ercole.adeluca/" class="icon fa-instagram" aria-label="Instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="https://www.linkedin.com/in/eracle" class="icon fa-linkedin" aria-label="LinkedIn"><span class="label">LinkedIn</span></a></li>
+            <li><a href="https://medium.com/@eracle" class="icon fa-medium" aria-label="Medium"><span class="label">Medium</span></a></li>
+            <li><a href="mailto:eracle@posteo.eu" class="icon fa-envelope-o" aria-label="Email"><span class="label">Email</span></a></li>
+            <li><a href="https://twitter.com/pieracle" class="icon fab fa-twitter" aria-label="Twitter"><span class="label">Twitter</span></a></li>
         </ul>
     </footer>
 </div>
@@ -305,8 +200,6 @@
 <script src="assets/js/jquery.scrolly.min.js"></script>
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/util.js"></script>
-<!--[if lte IE 8]>
-<script src="assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="assets/js/main.js"></script>
 
 </body>
