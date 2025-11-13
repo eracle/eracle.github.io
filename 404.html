@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Not Found</title>
+    <script>
+        // Get the requested path (e.g., '/CV_latest.pdf')
+        var requestedPath = window.location.pathname;
+
+        // Define redirects as a simple object (add more as needed)
+        var redirects = {
+            '/CV_latest.pdf': 'https://github.com/eracle/cv/raw/master/CV_latest.pdf'
+        };
+
+        // Check if the path has a redirect
+        if (redirects.hasOwnProperty(requestedPath)) {
+            window.location.href = redirects[requestedPath];
+        }
+    </script>
+</head>
+<body>
+    <h1>Page Not Found</h1>
+    <p>The page you're looking for doesn't exist. If you're not redirected automatically, <a href="/">go back to the homepage</a>.</p>
+</body>
+</html>
