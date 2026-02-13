@@ -1,206 +1,618 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Antonio Ercole De Luca</title>
-    <meta charset="utf-8"/>
-    <meta name="description" content="Personal website of Antonio Ercole De Luca, Digital Entrepreneur, Senior Software Engineer, and Bayesian Machine Learning Engineer.">
-    <meta name="keywords" content="Antonio Ercole De Luca, Machine Learning, Data Science, Software Engineering, Digital Nomad, SunnyPlans">
-    <meta name="msvalidate.01" content="048DFBEA2C038FBD275B221B62E2AC53"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Add a favicon if available -->
-    <link rel="stylesheet" href="assets/css/main.css"/>
-    <!--[if lte IE 9]>
-    <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
-    <!-- Removed unused MathJax and Bootstrap scripts as they don't appear to be utilized in the content -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4SNLYN3FY"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-W4SNLYN3FY');
-    </script>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WHQX8V2');
-    </script>
-    <!-- End Google Tag Manager -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Antonio Ercole De Luca — AI/ML Software Engineer & Architect</title>
+  <meta name="description" content="Antonio Ercole De Luca — AI/ML Software Engineer & Architect with 10+ years of experience in Python, Machine Learning, Cloud, and Data Engineering.">
+  <meta name="keywords" content="Antonio Ercole De Luca, AI, ML, Machine Learning, Software Engineer, Data Science, Python, Cloud, SunnyPlans">
+  <meta name="msvalidate.01" content="048DFBEA2C038FBD275B221B62E2AC53">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Antonio Ercole De Luca — AI/ML Software Engineer & Architect">
+  <meta property="og:description" content="10+ years building end-to-end AI and data solutions. Expertise in Python, ML, Cloud, and Data Engineering.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://eracle.me">
+  <meta property="og:image" content="https://eracle.me/me.png">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4SNLYN3FY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-W4SNLYN3FY');
+  </script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WHQX8V2');</script>
 </head>
-<body class="landing">
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHQX8V2"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
-<!-- Page Wrapper -->
-<div id="page-wrapper">
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHQX8V2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-    <!-- Header -->
-    <header id="header" class="alt">
-        <h1><a href="/">Antonio Ercole De Luca</a></h1>
-        <nav id="nav">
-            <ul>
-                <li class="special">
-                    <a href="#menu" class="menuToggle"><span>Menu</span></a>
-                    <div id="menu">
-                        <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="#whoami">About Me</a></li> <!-- Improved label for clarity -->
-                            <li><a href="#skills">Skills</a></li>
-                            <li><a href="#experience">Experience</a></li>
-                            <li><a href="#cta">Contact</a></li> <!-- Consistent singular label -->
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">eracle.me</a>
+      <div class="nav-links">
+        <a href="#journey">Journey</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#community">Community</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
 
-    <!-- Banner -->
-    <section id="banner">
-        <div class="inner">
-            <h2>Antonio Ercole De Luca</h2>
-            <p>
-                Digital Entrepreneur<br>
-                Senior Software Engineer<br>
-                Bayesian Machine Learning Engineer
-            </p>
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <h1>Antonio Ercole De Luca</h1>
+        <p class="title">AI/ML Software Engineer & Architect</p>
+        <p class="summary">With over 10 years as a Software Engineer, Machine Learning Engineer, Data Architect, and Scrum Master, I specialize in end-to-end AI and data solutions — from web scraping and database design to cloud orchestration, generative AI, and scalable ML pipelines.</p>
+        <div class="hero-actions">
+          <a href="https://github.com/eracle/cv/raw/master/CV_latest.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download CV
+          </a>
+          <a href="#experience" class="btn btn-outline">View Experience</a>
         </div>
-        <a href="#whoami" class="more scrolly" aria-label="Learn more about me">Learn More</a> <!-- Added aria-label for accessibility -->
+      </div>
     </section>
 
-    <!-- About Me -->
-    <section id="whoami" class="wrapper style1 special">
-        <div class="inner">
-            <header class="major">
-                <h2>About Me</h2> <!-- Consistent heading -->
-                <p>
-                    Since 2016, I've consulted in various roles including Machine Learning Engineer, Data Architect, Data Scientist, DevOps, and Scrum Master. My expertise spans the full data lifecycle: from web scraping and relational database design to cloud deployment, RESTful APIs, and Jupyter Notebooks. In 2019, I took a sabbatical to deepen my knowledge in Statistics and Finance, contributing to two scientific papers on Web Scraping and Data Visualization.
-                </p>
-                <ul>
-                    <li><strong>Education:</strong></li>
-                    <li>BSc in Computer Science, University of Pisa</li>
-                    <li>MSc in Business Informatics, University of Pisa</li>
-                    <li>BSc in Statistics for Data Science, University of Palermo</li>
-                </ul>
-            </header>
-            <footer>
-                <a href="#skills" class="button style2 down more scrolly" aria-label="Scroll to skills section"></a>
-            </footer>
+    <!-- Journey -->
+    <section id="journey" class="journey">
+      <div class="container">
+        <div class="journey-intro fade-in">
+          <h2 class="section-title">The Journey</h2>
+          <p>From NLP research in Pisa to building AI platforms across three continents — here are the chapters that shaped my career.</p>
         </div>
+
+        <!-- University & First Steps -->
+        <div class="spotlight fade-in">
+          <div class="spotlight-image">
+            <img src="images/pisa.jpg" alt="University of Pisa" loading="lazy">
+          </div>
+          <div class="spotlight-content">
+            <span class="spotlight-period">2007 – 2016 &middot; Pisa, Italy</span>
+            <h3>Where It All Started</h3>
+            <p>I earned a BSc in Computer Science and MSc in Data Science & Business Informatics at the University of Pisa, researching IR, NLP, and Machine Learning. An Erasmus semester in Valencia broadened my perspective.</p>
+            <p>My first industry roles — at Synthema on EU-funded multilingual NLP pipelines, then at SpazioDati building Active Learning workflows — planted the seeds for everything that followed.</p>
+          </div>
+        </div>
+
+        <!-- Digital Nomad -->
+        <div class="spotlight fade-in">
+          <div class="spotlight-image">
+            <img src="images/digital_nomad.png" alt="Digital nomad working remotely" loading="lazy">
+          </div>
+          <div class="spotlight-content">
+            <span class="spotlight-period">2017 – 2019 &middot; Worldwide</span>
+            <h3>Going Nomad</h3>
+            <p>Starting with an open-source LinkedIn scraper, I transitioned to full-time remote work via Upwork — delivering 5/5-star projects for 10+ clients while traveling through Europe, Peru, and the US.</p>
+            <p>Along the way I collaborated with <a href="https://robot.com/" target="_blank" rel="noopener noreferrer">KiwiBot</a> at Berkeley SkyDeck, reconnecting with a contact from a nomadic camp in Lanzarote.</p>
+          </div>
+        </div>
+
+        <!-- KiwiBot -->
+        <div class="spotlight fade-in">
+          <div class="spotlight-image">
+            <img src="images/kiwibot.jpg" alt="KiwiBot delivery robot" loading="lazy">
+          </div>
+          <div class="spotlight-content">
+            <span class="spotlight-period">2017 &middot; Berkeley, California</span>
+            <h3>Robots & Burritos</h3>
+            <p>At Berkeley SkyDeck, I helped KiwiBot integrate supplier APIs for their food delivery robot platform — handling 2,000+ orders in under two months. The startup spirit was contagious.</p>
+          </div>
+        </div>
+
+        <!-- Sabbatical & Statistics -->
+        <div class="spotlight fade-in">
+          <div class="spotlight-image">
+            <img src="images/bayesian.jpg" alt="Bayesian statistics" loading="lazy">
+          </div>
+          <div class="spotlight-content">
+            <span class="spotlight-period">2019 – 2021 &middot; Palermo & Remote</span>
+            <h3>The Sabbatical</h3>
+            <p>After years of consulting, I hit pause. I pursued a BSc in Statistics at the University of Palermo to strengthen my mathematical foundations — studying financial mathematics, multivariate analysis, and Bayesian inference.</p>
+            <p>During the 2020 lockdown, I contributed to <a href="https://github.com/dask/dask/commits?author=eracle" target="_blank" rel="noopener noreferrer">Dask</a>, implementing random sampling on distributed Bags. I wrote about it on <a href="https://eracle.medium.com/distributed-sampling-on-dask-bags-f0e9faad8610" target="_blank" rel="noopener noreferrer">Medium</a>.</p>
+          </div>
+        </div>
+
+        <!-- Las Palmas & Community -->
+        <div class="spotlight fade-in">
+          <div class="spotlight-image">
+            <img src="images/laspalmas.jpg" alt="Las Palmas de Gran Canaria" loading="lazy">
+          </div>
+          <div class="spotlight-content">
+            <span class="spotlight-period">2022 – Present &middot; Las Palmas de Gran Canaria</span>
+            <h3>Building Community</h3>
+            <p>In 2022, I relocated to Las Palmas and co-founded <a href="https://t.me/+PIA6Uxxtnig0ODJk" target="_blank" rel="noopener noreferrer">PyData Las Palmas</a>, fostering innovation among digital nomads and expats. The island's vibrant tech community has been a perfect home base.</p>
+          </div>
+        </div>
+
+        <!-- SunnyPlans -->
+        <div class="spotlight fade-in">
+          <div class="spotlight-image">
+            <img src="images/sunnyplans.png" alt="SunnyPlans platform" loading="lazy">
+          </div>
+          <div class="spotlight-content">
+            <span class="spotlight-period">2021 – 2024 &middot; Las Palmas</span>
+            <h3>SunnyPlans — My Startup</h3>
+            <p><a href="https://sunnyplans.com" target="_blank" rel="noopener noreferrer">SunnyPlans</a> merges my passion for sustainability with solar industry innovation. I built an AI-powered geo-analytics platform helping businesses identify optimal terrains for utility-scale solar projects, using PostGIS and advanced algorithms.</p>
+            <p>My involvement is personal — it's a commitment to making solar energy mainstream.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title fade-in">About</h2>
+        <div class="about-grid">
+          <div class="about-text fade-in">
+            <p>I specialize in end-to-end AI and data solutions. My expertise spans the full data lifecycle — including web scraping, relational and NoSQL databases, cloud orchestration, RESTful APIs, and Jupyter Notebooks — while leveraging generative AI (LLMs, LangChain for agentic workflows) to boost efficiency.</p>
+            <p>I've built scalable AI-driven platforms in commodities trading, renewables, and finance. In 2019 I took a sabbatical to deepen my knowledge in Statistics and Finance, contributing to two scientific papers on Web Scraping and Semantic Crawling.</p>
+          </div>
+          <div class="fade-in">
+            <div class="about-detail-card">
+              <h3>Education</h3>
+              <ul>
+                <li>BSc Statistics & Data Science — University of Palermo</li>
+                <li>MSc Data Science & Business Informatics — University of Pisa</li>
+                <li>BSc Computer Science — University of Pisa</li>
+              </ul>
+            </div>
+            <div class="about-detail-card">
+              <h3>Languages</h3>
+              <ul>
+                <li>Italian — Native</li>
+                <li>English — Fluent</li>
+                <li>Spanish — Fluent</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Skills -->
-    <section id="skills" class="main style3 primary">
-        <div class="content container">
-            <h2>
-                <i class="fa fa-cog fa-spin" aria-hidden="true"></i>
-                Skills
-            </h2>
-            <p>Explore my skills and professional experience in detail.</p>
-            <a href="https://github.com/eracle/cv/raw/master/CV_latest.pdf" class="button style3" target="_blank" rel="noopener noreferrer"><b>Download My CV</b></a> <!-- Added target and rel for security/best practices -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title fade-in">Skills</h2>
+        <p class="section-subtitle fade-in">Technologies and tools I work with daily.</p>
+        <div class="skills-grid">
+
+          <div class="skill-category fade-in">
+            <h3>Programming Languages</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Python (Advanced)</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">Bash</span>
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">R</span>
+            </div>
+          </div>
+
+          <div class="skill-category fade-in">
+            <h3>Cloud & DevOps / MLOps</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">GCP</span>
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">Azure</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">Dagster</span>
+              <span class="skill-tag">dbt</span>
+              <span class="skill-tag">TDD</span>
+              <span class="skill-tag">CI/CD</span>
+              <span class="skill-tag">MLflow</span>
+              <span class="skill-tag">MLOps</span>
+              <span class="skill-tag">NVIDIA Docker</span>
+            </div>
+          </div>
+
+          <div class="skill-category fade-in">
+            <h3>AI / ML & Data Science</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Generative AI</span>
+              <span class="skill-tag">LLMs</span>
+              <span class="skill-tag">NLP</span>
+              <span class="skill-tag">Machine Learning</span>
+              <span class="skill-tag">Deep Learning</span>
+              <span class="skill-tag">Active Learning</span>
+              <span class="skill-tag">Bayesian Forecasting</span>
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">Prophet</span>
+              <span class="skill-tag">Optuna</span>
+              <span class="skill-tag">LangChain</span>
+              <span class="skill-tag">Prompt Engineering</span>
+              <span class="skill-tag">Elasticsearch</span>
+              <span class="skill-tag">Scrapy</span>
+              <span class="skill-tag">Selenium</span>
+            </div>
+          </div>
+
+          <div class="skill-category fade-in">
+            <h3>Frameworks & Libraries</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Django</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">FFmpeg</span>
+              <span class="skill-tag">Dask</span>
+            </div>
+          </div>
+
+          <div class="skill-category fade-in">
+            <h3>Data Tools & Pipelines</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">ETL Processes</span>
+              <span class="skill-tag">Web Scraping</span>
+              <span class="skill-tag">API Integration</span>
+              <span class="skill-tag">Multilingual NLP</span>
+              <span class="skill-tag">PostGIS</span>
+              <span class="skill-tag">Distributed Computing</span>
+              <span class="skill-tag">CUDA</span>
+              <span class="skill-tag">Time-Series Forecasting</span>
+            </div>
+          </div>
+
+          <div class="skill-category fade-in">
+            <h3>Professional Skills</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Scrum</span>
+              <span class="skill-tag">Team Leadership</span>
+              <span class="skill-tag">Code Refactoring</span>
+              <span class="skill-tag">System Optimization</span>
+              <span class="skill-tag">SEO</span>
+              <span class="skill-tag">RESTful APIs</span>
+            </div>
+          </div>
+
         </div>
+      </div>
     </section>
 
     <!-- Experience -->
-    <section id="experience" class="wrapper alt style2">
-        <section class="spotlight">
-            <div class="content">
-                <div class="mt-5 mb-5">
-                    <h2>
-                        Professional Experiences
-                    </h2> <!-- Improved heading for clarity -->
-                </div>
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title fade-in">Experience</h2>
+        <p class="section-subtitle fade-in">11 positions across AI, renewables, fintech, humanitarian aid, and more.</p>
+
+        <div class="timeline">
+
+          <!-- Prosperous AI -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-header">
+              <span class="timeline-company"><a href="https://www.prosperousprocess.ai/" target="_blank" rel="noopener noreferrer">Prosperous AI</a></span>
+              <span class="timeline-role">Software Architect</span>
             </div>
-        </section>
-        <section class="spotlight">
-            <div class="image"><img src="images/sunnyplans.png" alt="SunnyPlans.com logo"/></div>
-            <div class="content">
-                <h2><a href="https://sunnyplans.com" target="_blank" rel="noopener noreferrer">SunnyPlans</a></h2>
-                <p>SunnyPlans merges my passion for sustainability with solar industry innovation. This startup helps businesses identify optimal terrains for utility-scale solar projects, streamlining the shift to renewable energy.</p>
-                <p>My involvement is personal—it's a commitment to making solar energy mainstream.</p>
+            <div class="timeline-meta">
+              <span>Apr 2024 – Sep 2025</span>
+              <span>Remote — Denver, CO</span>
+              <span>AI & Commodity Trading</span>
             </div>
-        </section>
-        <section class="spotlight">
-            <div class="image"><img src="images/laspalmas.jpg" alt="Las Palmas cityscape"/></div>
-            <div class="content">
-                <h2><a href="https://t.me/+PIA6Uxxtnig0ODJk" target="_blank" rel="noopener noreferrer">Las Palmas PyData Meetup</a></h2>
-                <p>In 2022, I relocated to Las Palmas and co-founded PyData Las Palmas in November, fostering innovation among digital nomads and expats.</p>
+            <p class="timeline-summary">Architected scalable AI/ML pipelines and backend for fuel arbitrage platform, integrating generative AI for decision-making and Prophet/Bayesian models for gasoline tank demand forecasting.</p>
+            <ul class="timeline-highlights">
+              <li>Developed load optimization algorithm reducing human error and fleet costs — 100% adoption by trading teams</li>
+              <li>Built dbt/Dagster pipeline ingesting data from 329 stations and 1,000+ tanks</li>
+              <li>Implemented TDD and CI/CD pipelines, reducing deployment errors by 80%</li>
+              <li>Delivered Superset dashboard for mid-tier client in two weeks, ensuring retention</li>
+              <li>Scraped 8 governmental websites for RFP data to feed the pipeline</li>
+            </ul>
+          </div>
+
+          <!-- SunnyPlans -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-header">
+              <span class="timeline-company"><a href="https://sunnyplans.com/" target="_blank" rel="noopener noreferrer">SunnyPlans</a></span>
+              <span class="timeline-role">Entrepreneur</span>
             </div>
-        </section>
-        <section class="spotlight">
-            <div class="image">
-                <img src="https://docs.dask.org/en/latest/_images/dask_horizontal.svg" alt="Dask logo" style="background: #4D7493;"/>
+            <div class="timeline-meta">
+              <span>Oct 2021 – Apr 2024</span>
+              <span>Remote — Las Palmas de Gran Canaria</span>
+              <span>Renewable Energy</span>
             </div>
-            <div class="content">
-                <h2><a href="https://github.com/dask/dask/commits?author=eracle" target="_blank" rel="noopener noreferrer">Open Source Contributions</a></h2>
-                <p>During the 2020 lockdown, I contributed to Dask, implementing random sampling on Distributed Sets (Bags) to tackle Big Data challenges.</p>
-                <p>Read more in my <a href="https://eracle.medium.com/distributed-sampling-on-dask-bags-f0e9faad8610" target="_blank" rel="noopener noreferrer">Medium post</a>.</p>
+            <p class="timeline-summary">Founded AI-powered geo-analytics platform for solar land selection using advanced algorithms and PostGIS for spatial data handling.</p>
+            <ul class="timeline-highlights">
+              <li>Generated €3.1k revenue over 6 months from 2 clients</li>
+              <li>Launched Chrome Extension for Stable Diffusion prompt engineering (200+ installs in first month)</li>
+              <li>Built programmatic SEO project with sentiment analysis for restaurant rankings (100 daily visitors)</li>
+              <li>Managed ETF portfolio with Bayesian forecasting, achieving 40% ROI over two years</li>
+            </ul>
+          </div>
+
+          <!-- Aquaticode -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-header">
+              <span class="timeline-company"><a href="https://www.aquaticode.com/" target="_blank" rel="noopener noreferrer">Aquaticode</a></span>
+              <span class="timeline-role">Software Engineer</span>
             </div>
-        </section>
-        <section class="spotlight">
-            <div class="image"><img src="images/bayesian.jpg" alt="Bayesian statistics illustration"/></div>
-            <div class="content">
-                <h2>Statistics for Data Analysis</h2>
-                <p>After years of international consulting and advanced degrees, I pursued a BSc in Statistics at the University of Palermo to strengthen my mathematical foundation.</p>
+            <div class="timeline-meta">
+              <span>Jan 2023 – Jun 2023</span>
+              <span>Remote</span>
+              <span>Food Production Technology</span>
             </div>
-        </section>
-        <section class="spotlight">
-            <div class="image"><img src="images/kiwibot.jpg" alt="KiwiBot robot"/></div>
-            <div class="content">
-                <h2><a href="https://www.kiwibot.com/" target="_blank" rel="noopener noreferrer">KiwiBot</a></h2>
-                <p>I collaborated with KiwiBot for three months at Berkeley SkyDeck, reconnecting with a contact from a nomadic camp in Lanzarote.</p>
+            <p class="timeline-summary">Optimized real-time, parallel Windows software system for AI-driven food production.</p>
+            <ul class="timeline-highlights">
+              <li>Processed ultrasound videos with FFmpeg; refactored features for efficiency</li>
+              <li>Dockerized computer vision models with GPU access using CUDA and NVIDIA Docker</li>
+              <li>Resolved concurrency bugs where FFmpeg competed with CV models for GPU resources</li>
+            </ul>
+          </div>
+
+          <!-- Molo Finance -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-header">
+              <span class="timeline-company"><a href="https://www.molofinance.com/" target="_blank" rel="noopener noreferrer">Molo Finance</a></span>
+              <span class="timeline-role">Software Engineer</span>
             </div>
-        </section>
-        <section class="spotlight">
-            <div class="image"><img src="images/digital_nomad.png" alt="Digital nomad working remotely"/></div>
-            <div class="content">
-                <h2>Digital Nomad Journey</h2>
-                <p>Starting with an open-source LinkedIn scraper, I transitioned to remote work via Upwork, traveling through Europe, Peru, and the US.</p>
+            <div class="timeline-meta">
+              <span>Feb 2022 – Apr 2022</span>
+              <span>Remote — London</span>
+              <span>Finance</span>
             </div>
-        </section>
-        <section class="spotlight">
-            <div class="image"><img src="images/spaziodati.png" alt="SpazioDati logo"/></div>
-            <div class="content">
-                <h2><a href="https://spaziodati.eu" target="_blank" rel="noopener noreferrer">SpazioDati</a></h2>
-                <p>In a year-long internship, I developed an Active Learning technique for Entity Linking in Dandelion, using logistic regression and CrowdFlower datasets.</p>
+            <p class="timeline-summary">Launched digital mortgage platform; refactored codebase, set up environments, and implemented backward-compatible REST API changes with bug fixes.</p>
+          </div>
+
+          <!-- World Food Program -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-header">
+              <span class="timeline-company"><a href="https://www.wfp.org/" target="_blank" rel="noopener noreferrer">World Food Programme</a></span>
+              <span class="timeline-role">Software Engineer</span>
             </div>
-        </section>
-        <section class="spotlight">
-            <div class="image"><img src="images/pisa.jpg" alt="University of Pisa building"/></div>
-            <div class="content">
-                <h2>University of Pisa</h2>
-                <p>I earned a BSc in Computer Science and MSc in Data Science & Business Informatics, researching IR, NLP, and ML. I also studied abroad in Valencia via Erasmus.</p>
+            <div class="timeline-meta">
+              <span>Mar 2021 – Oct 2021</span>
+              <span>Remote — Rome</span>
+              <span>Humanitarian Aid</span>
             </div>
-        </section>
+            <p class="timeline-summary">Led 10+ engineer team in Scrum adoption; standardized TDD practices, identified technical debt, and established E2E automated testing foundations.</p>
+          </div>
+
+          <!-- Airbnb Host -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-header">
+              <span class="timeline-company">Airbnb Host</span>
+              <span class="timeline-role">Founder & Remote Property Manager</span>
+            </div>
+            <div class="timeline-meta">
+              <span>Jan 2017 – Dec 2020</span>
+              <span>Pisa, Italy (managed remotely worldwide)</span>
+              <span>Short-term Rentals</span>
+            </div>
+            <p class="timeline-summary">Launched and remotely managed a B&B-style Airbnb listing. Handled full remote customer care, pricing, guest communication, and problem solving across time zones.</p>
+            <ul class="timeline-highlights">
+              <li>100% response rate and 0% cancellation rate across 239 guest reviews</li>
+              <li>4.43 overall rating — communication 4.74, check-in 4.74, accuracy 4.7</li>
+              <li>Managed operations while traveling Peru, US, and Southern Italy</li>
+            </ul>
+          </div>
+
+          <!-- Upwork -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-header">
+              <span class="timeline-company"><a href="https://www.upwork.com/" target="_blank" rel="noopener noreferrer">Upwork</a></span>
+              <span class="timeline-role">Freelance Software Engineer</span>
+            </div>
+            <div class="timeline-meta">
+              <span>Jan 2017 – Dec 2019</span>
+              <span>Remote</span>
+              <span>Freelance</span>
+            </div>
+            <p class="timeline-summary">Delivered 5/5-star projects for 10+ clients.</p>
+            <ul class="timeline-highlights">
+              <li>Built zero-latency image search engine (40k+ images via ANN with Annoy and AlexNet) as MVP for Canadian trademark law firm</li>
+              <li>Migrated Django app to GCP with zero infrastructure costs</li>
+              <li>Developed TDD Django app with 83% test coverage</li>
+            </ul>
+          </div>
+
+          <!-- Kiwi Campus -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-header">
+              <span class="timeline-company"><a href="https://robot.com/" target="_blank" rel="noopener noreferrer">Kiwi Campus</a></span>
+              <span class="timeline-role">Software Engineer</span>
+            </div>
+            <div class="timeline-meta">
+              <span>2017</span>
+              <span>Berkeley, US</span>
+              <span>Food Delivery</span>
+            </div>
+            <p class="timeline-summary">Integrated supplier API for platform handling 2k+ food delivery orders in under 2 months.</p>
+          </div>
+
+          <!-- Legalkite -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-header">
+              <span class="timeline-company"><a href="https://www.legalkite.com/" target="_blank" rel="noopener noreferrer">Legalkite</a></span>
+              <span class="timeline-role">Backend Engineer</span>
+            </div>
+            <div class="timeline-meta">
+              <span>2016 – 2017</span>
+              <span>Remote — Zurich</span>
+              <span>Legal Tech</span>
+            </div>
+            <p class="timeline-summary">Designed REST endpoints; optimized API response 10x via SQL queries; refactored DB schema for consistency.</p>
+            <ul class="timeline-highlights">
+              <li>Used Elasticsearch as read-replica for search performance</li>
+              <li>Scaled scraping 100x with Scrapy and Scrapinghub</li>
+            </ul>
+          </div>
+
+          <!-- SpazioDati -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-header">
+              <span class="timeline-company"><a href="https://www.spaziodati.eu/" target="_blank" rel="noopener noreferrer">SpazioDati</a></span>
+              <span class="timeline-role">ML Engineer Intern</span>
+            </div>
+            <div class="timeline-meta">
+              <span>2015 – 2016</span>
+              <span>Pisa, Italy</span>
+              <span>Data Science</span>
+            </div>
+            <p class="timeline-summary">Built Human-in-the-Loop Active Learning workflow via CrowdFlower API; doubled F1-score for NER Logistic Regression with Uncertainty Sampling.</p>
+          </div>
+
+          <!-- Synthema -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-header">
+              <span class="timeline-company"><a href="https://www.s-ai.it/" target="_blank" rel="noopener noreferrer">Synthema</a></span>
+              <span class="timeline-role">Software Developer</span>
+            </div>
+            <div class="timeline-meta">
+              <span>2014 – 2015</span>
+              <span>Pisa, Italy</span>
+              <span>NLP</span>
+            </div>
+            <p class="timeline-summary">Operationalized multilingual NLP pipelines (Segmentation, Tokenization, POS, NER) for Romanian, Japanese, Chinese, German; contributed to EU-funded CAPER project (€5.6M).</p>
+          </div>
+
+        </div>
+      </div>
     </section>
 
-    <!-- Footer -->
-    <footer id="footer">
-        <ul class="icons">
-            <li><a href="https://www.chess.com/member/eracle1" aria-label="Chess.com profile">♟</a></li>
-            <li><a href="https://github.com/eracle" class="icon fa-github" aria-label="GitHub"><span class="label">GitHub</span></a></li>
-            <li><a href="https://stats.stackexchange.com/users/80960/eracle" class="icon fa-stack-overflow" aria-label="Stack Exchange"><span class="label">Stack Exchange</span></a></li>
-            <li><a href="https://www.instagram.com/ercole.adeluca/" class="icon fa-instagram" aria-label="Instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="https://www.linkedin.com/in/eracle" class="icon fa-linkedin" aria-label="LinkedIn"><span class="label">LinkedIn</span></a></li>
-            <li><a href="https://medium.com/@eracle" class="icon fa-medium" aria-label="Medium"><span class="label">Medium</span></a></li>
-            <li><a href="mailto:eracle@posteo.eu" class="icon fa-envelope-o" aria-label="Email"><span class="label">Email</span></a></li>
-            <li><a href="https://twitter.com/pieracle" class="icon fab fa-twitter" aria-label="Twitter"><span class="label">Twitter</span></a></li>
-        </ul>
-    </footer>
-</div>
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title fade-in">Projects</h2>
+        <p class="section-subtitle fade-in">Side projects and open-source work.</p>
+        <div class="projects-grid">
 
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrollex.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
+          <div class="project-card fade-in">
+            <h3><a href="https://github.com/eracle/OpenOutreach" target="_blank" rel="noopener noreferrer">OpenOutreach</a></h3>
+            <p>Open-source LinkedIn automation tool for agentic marketing. Python, Playwright, Docker, SQLite. Features AI message generation via LangChain with Jinja templates, multi-account management, A/B testing analytics.</p>
+          </div>
 
+          <div class="project-card fade-in">
+            <h3><a href="https://sunnyplans.com" target="_blank" rel="noopener noreferrer">SunnyPlans</a></h3>
+            <p>AI-driven startup for solar land selection via geo-analytics and algorithms, utilizing PostGIS for spatial queries.</p>
+          </div>
+
+          <div class="project-card fade-in">
+            <h3>Chrome Extension for Stable Diffusion</h3>
+            <p>Chrome Extension for generative AI prompt creation — 200+ installs in first month.</p>
+          </div>
+
+          <div class="project-card fade-in">
+            <h3>Web Scraping Projects</h3>
+            <p>Built scraping pipelines for governmental RFPs (8 sites), subito.it, thefork.com, justeat.com, linkedin.com, admin.ch using Python, Scrapy, Playwright, Selenium.</p>
+          </div>
+
+          <div class="project-card fade-in">
+            <h3><a href="https://github.com/eracle/financial-dagster-dbt-lab" target="_blank" rel="noopener noreferrer">Financial Dagster/dbt Lab</a></h3>
+            <p>Open-source financial data pipelines with Dagster and dbt.</p>
+          </div>
+
+          <div class="project-card fade-in">
+            <h3>Financial Portfolio Management</h3>
+            <p>Bayesian time-series forecasting for ETF portfolio — 40% ROI over 2 years.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+      <div class="container">
+        <h2 class="section-title fade-in">Publications</h2>
+        <p class="section-subtitle fade-in">Peer-reviewed IEEE conference papers.</p>
+
+        <div class="publication fade-in">
+          <h3><a href="https://ieeexplore.ieee.org/document/6921633" target="_blank" rel="noopener noreferrer">CAPER: Crawling and Analysing Facebook for Intelligence Purposes</a></h3>
+          <p class="pub-meta">C. Aliprandi, A.E. De Luca, G. Di Pietro, M. Raffaelli, D. Gazzè, M.N. La Polla — IEEE/ACM ASONAM 2014</p>
+          <p>Focused on web scraping techniques for social media data collection and analysis.</p>
+        </div>
+
+        <div class="publication fade-in">
+          <h3><a href="https://ieeexplore.ieee.org/document/7027605" target="_blank" rel="noopener noreferrer">Semantic Crawling: An Approach Based on Named Entity Recognition</a></h3>
+          <p class="pub-meta">G. Di Pietro, C. Aliprandi, A.E. De Luca, M. Raffaelli, T. Soru — IEEE/ACM UCC 2014</p>
+          <p>Explored semantic enhancements to web crawling using NER for improved data visualization and extraction.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Community -->
+    <section id="community">
+      <div class="container">
+        <h2 class="section-title fade-in">Community</h2>
+        <p class="section-subtitle fade-in">Giving back through meetups and conferences.</p>
+        <div class="community-grid">
+          <div class="community-card fade-in">
+            <h3>PyData Las Palmas</h3>
+            <span class="role">Organizer</span>
+          </div>
+          <div class="community-card fade-in">
+            <h3>PyCon Florence</h3>
+            <span class="role">Volunteer</span>
+          </div>
+          <div class="community-card fade-in">
+            <h3>Python Meetup Palermo</h3>
+            <span class="role">Organizer</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="social-links">
+        <!-- GitHub -->
+        <a href="https://github.com/eracle" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/eracle" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <!-- Medium -->
+        <a href="https://medium.com/@eracle" aria-label="Medium" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42zm2.94 0c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75c.66 0 1.19 2.58 1.19 5.75z"/></svg>
+        </a>
+        <!-- Email -->
+        <a href="mailto:eracle@posteo.eu" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 7L2 7"/></svg>
+        </a>
+        <!-- Stack Exchange -->
+        <a href="https://stats.stackexchange.com/users/80960/eracle" aria-label="Stack Exchange" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24"><path d="M18.986 21.865v-6.404h2.134V24H1.844v-8.539h2.13v6.404h15.012zM6.111 4.002L18.326 6.55l-.429 2.09L5.683 6.091l.428-2.089zm1.684-4L19.515 4.38l-.857 2.012L6.938 2.014 7.795 0zm3.274-3.91L21.399 8.148l-1.37 1.613-10.33-12.056L11.069.093zM17.466 14.263H5.974v-2.129h11.492v2.129zm0-3.394H5.974V8.741h11.492v2.128z"/></svg>
+        </a>
+        <!-- Chess.com -->
+        <a href="https://www.chess.com/member/eracle1" aria-label="Chess.com" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L9 7H6l1.5 4L5 14h4l-1 4h8l-1-4h4l-2.5-3L18 7h-3L12 2z"/></svg>
+        </a>
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/ercole.adeluca/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        </a>
+      </div>
+      <p class="footer-text">&copy; 2025 Antonio Ercole De Luca</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
